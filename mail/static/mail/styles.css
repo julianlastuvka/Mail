@@ -1,0 +1,29 @@
+textarea {
+    min-height: 400px;
+}
+
+body{
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+}
+
+
+.email{
+    border: black solid 1px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+
+.email:hover{
+    cursor: pointer;
+}
+
+#email-view button{
+    margin-right: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
